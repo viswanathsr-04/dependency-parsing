@@ -1,6 +1,6 @@
 import spacy
 import streamlit as st
-import subprocess
+# import subprocess
 
 spacy.cli.download('en_core_web_sm')
 
