@@ -1,14 +1,6 @@
 import spacy
 import streamlit as st
-import subprocess
 
-
-@st.cache_resource
-def download_en_core_web_sm():
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
-
-
-download_en_core_web_sm()
 # Load the English language model
 nlp = spacy.load("en_core_web_sm")
 
