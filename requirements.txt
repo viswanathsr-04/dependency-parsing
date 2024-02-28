@@ -1,3 +1,2 @@
-subprocess.run
 streamlit
 spacy

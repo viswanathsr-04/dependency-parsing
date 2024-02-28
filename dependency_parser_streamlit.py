@@ -2,7 +2,7 @@ import spacy
 import streamlit as st
 
 # Load the English language model
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm-3.7.1-py3-none-any.whl")
 
 
 # Define a function to parse sentences using SpaCy's dependency parser
