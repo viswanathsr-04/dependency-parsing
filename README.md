@@ -11,7 +11,6 @@ This repository contains code for a simple dependency parser implemented in Pyth
 
 - Python 3
 - Create a virtual environment using Python and install the requirements.txt file using pip
-- 
 
 ## Usage
 
