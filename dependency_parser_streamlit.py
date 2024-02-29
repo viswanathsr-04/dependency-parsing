@@ -1,18 +1,17 @@
 import spacy
 import streamlit as st
-# import subprocess
+import subprocess
 
-spacy.cli.download('en_core_web_sm')
 
-# # Define the command to download the model
-# command = "python -m spacy download en_core_web_sm"
+# Define the command to download the model
+command = "python -m spacy download en_core_web_sm"
 
-# # Execute the command using subprocess
-# try:
-#     subprocess.run(command, shell=True, check=True)
-#     print("Model downloaded successfully!")
-# except subprocess.CalledProcessError as e:
-#     print("An error occurred while downloading the model:", e)
+# Execute the command using subprocess
+try:
+    subprocess.run(command, shell=True, check=True)
+    print("Model downloaded successfully!")
+except subprocess.CalledProcessError as e:
+    print("An error occurred while downloading the model:", e)
 
 # Load the English language model
 nlp = spacy.load("en_core_web_sm")
